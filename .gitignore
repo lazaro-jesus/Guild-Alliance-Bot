@@ -13,9 +13,14 @@ ENV/
 env.bak/
 venv.bak/
 
-# Project
-*.log
+#JSON
 *.json
+!guilds_tag.json
+
+# Logging
+*.log
+
+# Data Base
 *.db
 *.db-journal
 db.sqlite3
