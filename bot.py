@@ -10,7 +10,7 @@ from regexp import *
 from support import *
 
 
-TOKEN = "5803766879:AAFP0HHKopxwhF1TUY3PaMeZpfQXbifYCBg"
+TOKEN = "YOUR TOKEN"
 
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 telebot.apihelper.RETRY_ON_ERROR = True
